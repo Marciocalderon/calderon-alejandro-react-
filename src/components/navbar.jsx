@@ -10,9 +10,9 @@ function Navbar() {
         <Link to='/' style={{textDecoration:'none'}}><h1>Tienda Frodito</h1></Link>
       </div>
       <ul className="navbar__categories">
-        <Link className="link_navBar" to='/category/laptops' style={{textDecoration:'none'}}>laptops</Link>
-        <Link className="link_navBar" to='/category/smartphones' style={{textDecoration:'none'}}>smartphones</Link>
-        <Link className="link_navBar" to='/category/beauty' style={{textDecoration:'none'}}>beauty</Link>
+        <Link className="link_navBar" to='/category/laptops' style={{textDecoration:'none'}}>Laptops</Link>
+        <Link className="link_navBar" to='/category/smartphones' style={{textDecoration:'none'}}>Celulares</Link>
+        <Link className="link_navBar" to='/category/motorcycle' style={{textDecoration:'none'}}>Motos</Link>
       </ul>
 
       <CartWidget/>

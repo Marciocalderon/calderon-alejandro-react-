@@ -29,6 +29,7 @@ return(
 </div>
 <Button 
     variant="outline-primary"
+    className='w-100'
     >Agregar al carrito</Button>
 </div>
 )
