@@ -6,7 +6,7 @@ import Item from "./Item";
 function itemList({items}){
     return(
         <Container>
-        <Row xs={1} md={2} className="g-5">
+        <Row xs={2} md={3} className="g-1">
         {items.map(item =>(
             <Item item={item} key={item.id} />
         ))}

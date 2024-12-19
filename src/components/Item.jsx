@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function Item({item}){
     return(
         <Col key={item.id}>
-            <Card className='card_img'>
-              <Card.Img   variant="top" src={item.thumbnail} />
+            <Card >
+              <Card.Img   variant="top" src={item.img} />
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text>

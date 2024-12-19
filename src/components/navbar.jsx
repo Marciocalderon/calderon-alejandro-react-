@@ -1,4 +1,4 @@
-import CartWidget from "./cartwidget"; 
+import CartWidget from "./CartWidget"; 
 import { Link } from "react-router-dom";
 
 
@@ -10,9 +10,9 @@ function Navbar() {
         <Link to='/' style={{textDecoration:'none'}}><h1>Tienda Frodito</h1></Link>
       </div>
       <ul className="navbar__categories">
-        <Link className="link_navBar" to='/category/laptops' style={{textDecoration:'none'}}>Laptops</Link>
-        <Link className="link_navBar" to='/category/smartphones' style={{textDecoration:'none'}}>Celulares</Link>
-        <Link className="link_navBar" to='/category/motorcycle' style={{textDecoration:'none'}}>Motos</Link>
+        <Link className="link_navBar" to='/category/notebooks' style={{textDecoration:'none'}}>Laptops</Link>
+        <Link className="link_navBar" to='/category/celulares' style={{textDecoration:'none'}}>Celulares</Link>
+        <Link className="link_navBar" to='/category/motos' style={{textDecoration:'none'}}>Motos</Link>
       </ul>
 
       <CartWidget/>

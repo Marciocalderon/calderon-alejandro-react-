@@ -2,12 +2,16 @@ import ItemCount from "./ItemCount"
 
 function ItemDetail({item}) {
    return(
-   <div>
-    <img src={item?.thumbnail} alt="" />
-    <h2>{item?.title}</h2>
-    <p>{item?.description}</p>
-    <p>{item?.price}</p>
-    <ItemCount/>
+    <div>
+    <div className="imgDetail">
+    <img src={item?.img} alt="" />
+    </div>,
+    <div>
+    <h2 className="detail">{item?.name}</h2>
+    <p className="detail">{item?.description}</p>
+    <p className="detail">{item?.price}</p>
+    <ItemCount detail={item} />
+    </div>
     </div>
     )
 }
